@@ -1,0 +1,26 @@
+img { display: none; max-width: 100%; width: 50%; height: auto; }
+
+.isActive {
+    display: inline-block;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: #fafafa;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    margin-top: 1em;
+}
